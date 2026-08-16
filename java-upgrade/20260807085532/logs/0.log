@@ -1,0 +1,34 @@
+2026-08-07T08:55:32.931Z [INFO] ----------------------invoke list_jdks----------------------
+2026-08-07T08:55:32.933Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Eclipse Adoptium",
+    "C:\\Program Files\\Microsoft",
+    "C:\\Program Files\\Java"
+  ],
+  "projectPath": "c:\\Users\\Dell\\Downloads\\Employee-Management-System-main\\Employee-Management-System-main"
+}}).
+2026-08-07T08:55:32.934Z [INFO] [Tool.invoke] do invoke.
+2026-08-07T08:55:32.957Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 24.0.2\n   📁 Path: C:\\Program Files\\Java\\jdk-24\\bin\n   🏷️ Source: others\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-08-07T08:55:32.957Z [INFO] ----------------------invoked list_jdks----------------------
+2026-08-07T08:56:09.896Z [INFO] ----------------------invoke install_jdk----------------------
+2026-08-07T08:56:09.898Z [INFO] [Tool.invoke]({name: install_jdk, input: {
+  "version": "17",
+  "dest": "C:\\Users\\Dell\\.jdk",
+  "projectPath": "c:\\Users\\Dell\\Downloads\\Employee-Management-System-main\\Employee-Management-System-main"
+}}).
+2026-08-07T08:56:09.898Z [INFO] [Tool.invoke] do invoke.
+2026-08-07T09:01:21.514Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\Dell\\.jdk\\jdk-17.0.16\\bin",
+    "version": "17.0.16"
+  },
+  "message": "JDK 17 is installed at C:\\Users\\Dell\\.jdk\\jdk-17.0.16\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "17"
+  }
+}}).
+2026-08-07T09:01:21.519Z [INFO] ----------------------invoked install_jdk----------------------
